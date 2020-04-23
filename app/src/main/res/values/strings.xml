@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">GreenPic</string>
+    <string name="로그인">로그인</string>
+    <string name="회원가입">회원가입</string>
+    <string name="비밀번호찾기">ID/비밀번호 찾기</string>
+    <string name="아이디">아이디</string>
+    <string name="비밀번호">비밀번호</string>
+    <string name="Greening">Greening</string>
+    <string name="아이디">아이디</string>
+    <string name="비밀번호">비밀번호</string>
+    <string name="auto_login">CheckBox</string>
+    <string name="자동로그인">자동로그인</string>
+    <string name="id">ID/비밀번호 찾기</string>
 </resources>
