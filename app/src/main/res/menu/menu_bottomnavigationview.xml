@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@android:drawable/ic_menu_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/searchItem"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"/>
+    <item
+        android:id="@+id/marketItem"
+        android:icon="@android:drawble/ic_menu_market"
+        android:title="Market"/>
+    <item
+        android:id="@+id/profileItem"
+        android:icon="@android:drawable/ic_menu_profile"
+        android:title="Profile"/>
+
+
+
