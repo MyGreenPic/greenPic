@@ -12,7 +12,7 @@ class ProfileActivity : AppCompatActivity() {
         setContentView(R.layout.profile_main)
 
         toolbar.title = ("프로필")
-        setSupportActionBar(toolbar)
+
 
         appbar.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, i ->
 
