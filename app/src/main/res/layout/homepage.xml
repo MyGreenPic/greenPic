@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_bar"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A5DFA7">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="303dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="52dp"
+                android:background="#A5DFA7"
+                android:tint="#090000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/greeninglogo"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="678dp"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:focusable="true"
+                android:tint="#040101"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:srcCompat="@drawable/bellshape"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="63dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="48dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:srcCompat="@drawable/user_image"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="213dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="56dp"
+                android:text="@string/user_name"
+                android:textColor="#050000"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="361dp"
+                android:layout_height="399dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:srcCompat="@drawable/contents"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="56dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="4dp"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toStartOf="@+id/imageView6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:srcCompat="@drawable/heart"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="78dp"
+                android:layout_height="43dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:srcCompat="@drawable/ic_chat"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="64dp"
+                android:layout_height="42dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:srcCompat="@drawable/bookmark"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="62dp"
+                android:layout_height="45dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                app:srcCompat="@drawable/user_image"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="323dp"
+                android:layout_height="43dp"
+                android:hint="@string/write_your_comment"
+                android:singleLine="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <ScrollView
+                style="@android:style/Widget.DeviceDefault.ScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="true"
+                android:clipToPadding="true"
+                android:fillViewport="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="horizontal|vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="true"
+                    android:orientation="vertical"
+                    android:scrollbars="horizontal|vertical"
+                    android:visibility="visible" />
+            </ScrollView>
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="28dp"
+                android:animationCache="true"
+                android:background="#A5DFA7"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="true"
+                android:clipChildren="true"
+                android:focusable="true"
+                android:keepScreenOn="true"
+                app:itemIconSize="45dp"
+                app:itemIconTint="@color/design_default_color_on_secondary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                app:menu="@menu/homepage2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

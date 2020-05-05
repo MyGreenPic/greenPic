@@ -11,4 +11,7 @@
     <string name="auto_login">CheckBox</string>
     <string name="자동로그인">자동로그인</string>
     <string name="id">ID/비밀번호 찾기</string>
+    <string name="user_name">User_name</string>
+    <string name="메세지">메세지를 입력하세요.</string>
+    <string name="write_your_comment">Write your comment</string>
 </resources>
