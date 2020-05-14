@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/background"
+    tools:context=".ProfileActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:theme = "@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows= "true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags = "scroll|exitUntilCollapsed"
+            android:fitsSystemWindows= "true"
+            app:contentScrim="@android:color/transparent"
+            app:expandedTitleMarginStart="48dp"
+            app:titleEnabled="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:background="@drawable/challenge_fist"
+                                android:layout_width="50dp"
+                                android:layout_height= "50dp"
+                                android:layout_gravity="center"
+                                />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="5">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="25dp"
+                                android:text="1st challenge"
+                                android:textColor="@color/text_color"
+                                android:textSize="17sp"/>
+
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                //
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:background="@drawable/challenge_photo"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="120dp">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="480dp"
+                    android:weightSum="7">
+
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="5">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="텀블러와 손수건 챙기고 다니기 "
+                            android:textColor="@color/text_color"
+                            android:layout_marginLeft="30dp"
+                            android:textSize="20sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:background="@drawable/share"
+                            android:layout_width="30dp"
+                            android:layout_height= "30dp"
+                            android:layout_gravity="center"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:background="@drawable/camera"
+                            android:layout_width="30dp"
+                            android:layout_height= "30dp"
+                            android:layout_gravity="center"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="530dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="지구를 사랑한다면, 플라스틱 물병과 휴지 대신 텀블러와 손수건을~"
+                        android:textColor="@color/text_color"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id = "@+id/toolbar"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:backgroundTint="@android:color/white"
+                app:titleTextColor="@android:color/holo_green_dark"
+                app:layout_collapseMode="pin"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
