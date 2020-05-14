@@ -10,6 +10,10 @@
         android:title="Market"
         android:icon="@drawable/market"/>
     <item
+        android:id="@+id/plusItem"
+        android:title="Plus"
+        android:icon="@drawable/plus"/>
+    <item
         android:id="@+id/communityItem"
         android:title="Community"
         android:icon="@drawable/community"/>

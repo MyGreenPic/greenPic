@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
                 replaceFragment(MarketFragment())
                 return@OnNavigationItemSelectedListener true
             }
+            R.id.plusItem -> {
+                println("plus pressed")
+                replaceFragment(PlusFragment())
+                return@OnNavigationItemSelectedListener true
+            }
             R.id.communityItem -> {
                 println("community pressed")
                 replaceFragment(CommunityFragment())
