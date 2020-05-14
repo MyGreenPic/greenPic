@@ -11,12 +11,12 @@
         android:icon="@drawable/market"/>
     <item
         android:id="@+id/plusItem"
-        android:title="Plus"
-        android:icon="@drawable/plus"/>
+        android:title="Posting"
+        android:icon="@drawable/add_circle"/>
     <item
         android:id="@+id/communityItem"
         android:title="Community"
-        android:icon="@drawable/community"/>
+        android:icon="@drawable/chat"/>
     <item
         android:id="@+id/profileItem"
         android:title="Profile"
