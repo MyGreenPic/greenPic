@@ -3,16 +3,20 @@
 
     <item
         android:id="@+id/homeItem"
-        android:title="Home"/>
-    <item
-        android:id="@+id/searchItem"
-        android:title="Search"/>
+        android:title="Home"
+        android:icon="@drawable/home"/>
     <item
         android:id="@+id/marketItem"
-        android:title="Market"/>
+        android:title="Market"
+        android:icon="@drawable/market"/>
+    <item
+        android:id="@+id/communityItem"
+        android:title="Community"
+        android:icon="@drawable/community"/>
     <item
         android:id="@+id/profileItem"
-        android:title="Profile"/>
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
 
 </menu>
 
