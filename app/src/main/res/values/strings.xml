@@ -14,4 +14,13 @@
     <string name="user_name">User_name</string>
     <string name="메세지">메세지를 입력하세요.</string>
     <string name="write_your_comment">Write your comment</string>
+    <string name="notification">Notification</string>
+    <string name="blog">Blog</string>
+    <string name="video">Video</string>
+    <string name="image">Image</string>
+    <string name="notification">Notification</string>
+    <string name="Following" />
+    <string name="MY">MY</string>
+    <string name="my">MY</string>
+    <string name="following">Following</string>
 </resources>
