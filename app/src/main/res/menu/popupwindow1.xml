@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/goblog"
+        android:checkable="false"
+        android:icon="@drawable/blog"
+        android:onClick="blog"
+        android:title=""/>
+     <item android:id="@+id/image"
+         android:checkable="false"
+         android:icon="@drawable/contents"
+         android:onClick="image"
+         android:title=""/>
+      <item android:id="@+id/video"
+          android:checkable="false"
+          android:icon="@drawable/video"
+          android:onClick="video"
+          android:title=""/>
+</menu>

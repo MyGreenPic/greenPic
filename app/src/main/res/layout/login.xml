@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#159F15">
+
+
+    <TextView
+        android:id="@+id/Appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="376dp"
+        android:fontFamily="serif"
+        android:text="@string/Greening"
+        android:textColor="#67DD6C"
+        android:textSize="90sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="223dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="480dp"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_light_bulb"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/아이디"
+        android:layout_width="238dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="304dp"
+        android:autofillHints=""
+        android:backgroundTint="#3FB843"
+        android:ems="10"
+        android:hint="@string/login_id"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/비밀번호"
+        android:layout_width="238dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="248dp"
+        android:autofillHints=""
+        android:backgroundTint="#3FB843"
+        android:ems="10"
+        android:hint="@string/login_pwd"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/auto_login"
+        android:layout_width="137dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="196dp"
+        android:buttonTint="#48AC4C"
+        android:fontFamily="serif"
+        android:text="@string/auto_login"
+        android:textColor="#67DD6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="334dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="40dp"
+        android:textSize="20sp"
+        android:backgroundTint="#BFEDC1"
+        android:clickable="true"
+        android:text="@string/login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auto_login"
+        android:focusable="true"
+        android:onClick="Login"/>
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#BFEDC1"
+        android:text="@string/find_id_and_pw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#BFEDC1"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sign_up_btn" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/instagram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_facebook"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/kakaotalk"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/google_plus"
+        app:layout_constraintStart_toEndOf="@+id/instagram"
+        app:srcCompat="@drawable/ic_kakao_talk"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kakaotalk"
+        app:layout_constraintStart_toEndOf="@+id/facebook"
+        app:srcCompat="@drawable/ic_instagram"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/google_plus"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/twitter"
+        app:layout_constraintStart_toEndOf="@+id/kakaotalk"
+        app:srcCompat="@drawable/ic_google_plus"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/google_plus"
+        app:srcCompat="@drawable/ic_twitter"
+        tools:ignore="ContentDescription"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

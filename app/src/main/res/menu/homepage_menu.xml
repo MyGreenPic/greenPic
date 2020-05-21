@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_homepage"
+        android:checkable="false"
+        android:icon="@drawable/homepage"
+        android:onClick="hp"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_searchmark"
+        android:icon="@drawable/searchmark"
+        android:title=""
+        android:onClick="Search"/>
+    <item
+        android:id="@+id/navigation_plus"
+        android:icon="@drawable/plus_mark"
+        android:title=""
+        android:onClick="Plus" />
+    <item
+        android:id="@+id/navigation_market"
+        android:icon="@drawable/market"
+        android:title=""
+        android:onClick="blog"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/users_tab"
+        android:title=""
+        android:onClick="Profile"/>
+</menu>
