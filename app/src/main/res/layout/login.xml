@@ -4,21 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#159F15">
+    android:background="#FBFDFB">
 
-
-    <TextView
-        android:id="@+id/Appname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginBottom="376dp"
-        android:fontFamily="serif"
-        android:text="@string/Greening"
-        android:textColor="#67DD6C"
-        android:textSize="90sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/main_logo"
@@ -78,14 +65,14 @@
         android:layout_width="334dp"
         android:layout_height="62dp"
         android:layout_marginStart="40dp"
-        android:textSize="20sp"
         android:backgroundTint="#BFEDC1"
         android:clickable="true"
-        android:text="@string/login"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/auto_login"
         android:focusable="true"
-        android:onClick="Login"/>
+        android:onClick="Login"
+        android:text="@string/login"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auto_login" />
 
     <Button
         android:id="@+id/sign_up_btn"
@@ -120,7 +107,7 @@
         app:layout_constraintEnd_toStartOf="@+id/instagram"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_facebook"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/kakaotalk"
@@ -133,7 +120,7 @@
         app:layout_constraintEnd_toStartOf="@+id/google_plus"
         app:layout_constraintStart_toEndOf="@+id/instagram"
         app:srcCompat="@drawable/ic_kakao_talk"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/instagram"
@@ -146,7 +133,7 @@
         app:layout_constraintEnd_toStartOf="@+id/kakaotalk"
         app:layout_constraintStart_toEndOf="@+id/facebook"
         app:srcCompat="@drawable/ic_instagram"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/google_plus"
@@ -159,7 +146,7 @@
         app:layout_constraintEnd_toStartOf="@+id/twitter"
         app:layout_constraintStart_toEndOf="@+id/kakaotalk"
         app:srcCompat="@drawable/ic_google_plus"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/twitter"
@@ -172,6 +159,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/google_plus"
         app:srcCompat="@drawable/ic_twitter"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="315dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_logo"
+        app:srcCompat="@drawable/greeninglogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
