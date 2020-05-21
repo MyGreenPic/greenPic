@@ -1,4 +1,4 @@
 package com.mygreenpic.greenpic
 
-class TodayChallenge {
+class TodayChallengeMain {
 }
