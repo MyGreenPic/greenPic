@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         navigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        replaceFragment(HomeFragment())
 
 
     }
