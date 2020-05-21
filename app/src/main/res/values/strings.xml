@@ -1,7 +1,26 @@
 <resources>
     <string name="app_name">GreenPic</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="community">community</string>
+    <string name="로그인">로그인</string>
+    <string name="회원가입">회원가입</string>
+    <string name="비밀번호찾기">ID/비밀번호 찾기</string>
+    <string name="아이디">아이디</string>
+    <string name="비밀번호">비밀번호</string>
+    <string name="Greening">Greening</string>
+    <string name="아이디">아이디</string>
+    <string name="비밀번호">비밀번호</string>
+    <string name="auto_login">CheckBox</string>
+    <string name="자동로그인">자동로그인</string>
+    <string name="id">ID/비밀번호 찾기</string>
+    <string name="user_name">User_name</string>
+    <string name="메세지">메세지를 입력하세요.</string>
+    <string name="write_your_comment">Write your comment</string>
+    <string name="notification">Notification</string>
+    <string name="blog">Blog</string>
+    <string name="video">Video</string>
+    <string name="image">Image</string>
+    <string name="notification">Notification</string>
+    <string name="Following" />
+    <string name="MY">MY</string>
+    <string name="my">MY</string>
+    <string name="following">Following</string>
 </resources>
