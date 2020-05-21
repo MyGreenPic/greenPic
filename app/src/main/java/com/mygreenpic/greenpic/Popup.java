@@ -23,7 +23,6 @@ public class Popup extends Activity{
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                startActivity(new Intent(Popup.this, Postpage.class));
             }
         });
     }

@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     @SuppressLint("WrongViewCast")
     public void Login(View v){
         Toast.makeText(getApplicationContext(), "로그인 중입니다.",Toast.LENGTH_LONG).show();
-        Intent intent= new Intent(this, homepageActivity.class);
+        Intent intent= new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
