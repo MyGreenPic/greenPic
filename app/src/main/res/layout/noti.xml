@@ -71,23 +71,16 @@
         app:layout_constraintTop_toBottomOf="@+id/tabLayout2" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="407dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="30dp"
-        android:animationCache="true"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        android:clickable="true"
-        android:clipChildren="true"
-        android:focusable="true"
-        android:keepScreenOn="true"
-        app:itemIconSize="45dp"
-        app:itemIconTint="@color/design_default_color_on_secondary"
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:itemIconTint="@android:color/holo_green_light"
+        app:itemTextColor="@android:color/holo_green_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:menu="@menu/homepage2" />
-
+        app:menu="@menu/menu_bottomnavigationview" />
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="98dp"
@@ -132,8 +125,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="244dp"
-        android:layout_height="35dp"
+        android:layout_width="266dp"
+        android:layout_height="73dp"
         android:layout_marginStart="6dp"
         android:layout_marginTop="24dp"
         android:text="@string/user_name"
