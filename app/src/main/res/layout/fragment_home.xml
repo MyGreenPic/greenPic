@@ -38,7 +38,6 @@
                 android:clickable="true"
                 android:contextClickable="true"
                 android:focusable="true"
-                android:onClick="noti"
                 android:tint="#040101"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
