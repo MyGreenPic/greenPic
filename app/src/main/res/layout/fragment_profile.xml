@@ -181,6 +181,7 @@
                         android:layout_weight="1">
 
                         <Button
+                            android:id="@+id/shopping_button"
                             android:background="@drawable/cart"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -206,6 +207,7 @@
                         android:layout_weight="1">
 
                         <Button
+                            android:id="@+id/todaychallenge_button"
                             android:background="@drawable/today_c"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -267,7 +269,10 @@
                 android:orientation="horizontal"
                 android:layout_gravity="right">
 
-                <ImageView
+
+
+
+                    <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginRight="10dp"

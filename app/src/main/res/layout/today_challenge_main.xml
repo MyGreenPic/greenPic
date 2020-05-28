@@ -61,13 +61,15 @@
                 app:cardCornerRadius="30dp"
                 >
 
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:orientation="vertical">
 
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/tumbler_button"
                         android:src="@drawable/challenge_thumb1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
