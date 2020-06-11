@@ -42,7 +42,7 @@ class ProfileFragment : Fragment() {
         }
 
         communication_button.setOnClickListener {
-            val intent = Intent(this.context, MarketFragment::class.java)
+            val intent = Intent(this.context, CommunicationActivity::class.java)
 
             startActivity(intent)
         }
