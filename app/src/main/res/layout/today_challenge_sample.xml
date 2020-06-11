@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background = "@color/background"
-    tools:context=".TodayChallngeSample">
+    tools:context=".TodayChallengeSample">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -188,6 +188,12 @@
                 android:backgroundTint="@android:color/white"
                 app:titleTextColor="@android:color/holo_green_dark"
                 app:layout_collapseMode="pin"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/today_challenge_title"/>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>

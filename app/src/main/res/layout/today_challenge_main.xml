@@ -7,7 +7,7 @@
     android:background = "@color/background"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".TodayChallngeMain">
+    tools:context=".TodayChallengeMain">
 
     <androidx.appcompat.widget.Toolbar
         android:id = "@+id/toolbar"
@@ -23,6 +23,12 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="right">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/today_challenge_title"/>
 
             <ImageView
                 android:layout_width="30dp"
@@ -68,7 +74,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:orientation="vertical">
 
-                    <ImageButton
+                    <ImageView
                         android:id="@+id/tumbler_button"
                         android:src="@drawable/challenge_thumb1"
                         android:layout_width="wrap_content"

@@ -7,16 +7,15 @@ import android.os.PersistableBundle
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.today_challenge_main.*
 
 class TodayChallengeMain : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.today_challenge_main)
 
-        val button_challenge_sample = findViewById<ImageButton>(R.id.tumbler_button)
-
-        button_challenge_sample.setOnClickListener {
-            val intent = Intent(this, TodayChallangeSample::class.java)
+        tumbler_button.setOnClickListener {
+            val intent = Intent(this, TodayChallengeSample::class.java)
 
             startActivity(intent)
         }

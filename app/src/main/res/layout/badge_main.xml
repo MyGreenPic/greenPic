@@ -25,6 +25,12 @@
             android:layout_gravity="right">
 
             <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/badge_title"/>
+
+            <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginRight="10dp"

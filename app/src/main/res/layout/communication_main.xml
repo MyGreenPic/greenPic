@@ -30,8 +30,8 @@
                 android:layout_gravity="center">
 
                 <ImageView
-                    android:layout_width="300dp"
-                    android:layout_height="300dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:src="@drawable/message_title"/>
             </LinearLayout>
@@ -204,7 +204,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="Kim"
+                        android:text="Park"
                         android:textColor = "@color/text_color"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -223,7 +223,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="10dp"
-                        android:text="페트병 분리수거 어떻게 하는 거죠?"
+                        android:text="친친이 뭐예요 ?"
                         android:textColor="@color/text_color"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -233,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"
-                        android:text="이거 병이랑 뚜껑 따로 버리는 거죠?"
+                        android:text="먹는건가요?"
                         android:textColor="@color/text_color"
                         android:textSize="15sp"/>
 
@@ -310,7 +310,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="Kim"
+                        android:text="Lee"
                         android:textColor = "@color/text_color"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -329,7 +329,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="10dp"
-                        android:text="페트병 분리수거 어떻게 하는 거죠?"
+                        android:text="GREENING IS AWESOME!"
                         android:textColor="@color/text_color"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -339,7 +339,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"
-                        android:text="이거 병이랑 뚜껑 따로 버리는 거죠?"
+                        android:text="한 학기 동안 수고 많으셨습니다ㅎㅎ"
                         android:textColor="@color/text_color"
                         android:textSize="15sp"/>
 
