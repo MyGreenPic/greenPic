@@ -1,5 +1,6 @@
 package com.mygreenpic.greenpic
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -17,6 +18,12 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
+    }
+
+    val button = findViewById(R.id.imageButton_noti);
+
+    button.setOnClickListener {
+        val intent = Intent(this, NotiActivity::class.java)
     }
 
 }
