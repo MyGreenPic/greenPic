@@ -181,6 +181,7 @@
                         android:layout_weight="1">
 
                         <Button
+                            android:id="@+id/shopping_button"
                             android:background="@drawable/cart"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -206,6 +207,7 @@
                         android:layout_weight="1">
 
                         <Button
+                            android:id="@+id/todaychallenge_button"
                             android:background="@drawable/today_c"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -231,6 +233,7 @@
                         android:layout_weight="1">
 
                         <Button
+                            android:id="@+id/communication_button"
                             android:background="@drawable/communication"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -261,20 +264,24 @@
                 android:backgroundTint="@android:color/white"
                 app:titleTextColor="@android:color/holo_green_dark"
                 app:layout_collapseMode="pin">
-
                 <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="right">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/profile_title"/>
+
+                    <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="10dp"
-                    android:layout_gravity="right"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/imageButton_profile"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/bellshape" />
-                </LinearLayout>
+                    android:src="@drawable/notification"/>
+            </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
             <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
 

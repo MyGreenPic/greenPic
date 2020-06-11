@@ -6,6 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.*
+import kotlinx.android.synthetic.main.fragment_profile.*
 
 /**
  * A simple [Fragment] subclass.
@@ -20,10 +25,34 @@ class ProfileFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 
-    val button = findViewById(R.id.imageButton_profile);
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-    button.setOnClickListener {
-        val intent = Intent(this, NotiActivity::class.java)
+
+        todaychallenge_button.setOnClickListener {
+            val intent = Intent(this.context, TodayChallengeMain::class.java)
+
+            startActivity(intent)
+        }
+
+        shopping_button.setOnClickListener {
+            val intent = Intent(this.context, MarketFragment::class.java)
+
+            startActivity(intent)
+        }
+
+        communication_button.setOnClickListener {
+            val intent = Intent(this.context, MarketFragment::class.java)
+
+            startActivity(intent)
+        }
     }
 
-}
+
+
+    }
+
+
+
+
+
