@@ -27,11 +27,11 @@
                 android:layout_marginRight="10dp"
                 android:orientation="horizontal">
 
-                <ImageButton
+                <Button
                     android:id="@+id/imageButton_noti"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/bellshape" />
+                    android:background="@drawable/bellshape" />
             </LinearLayout>
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
@@ -104,11 +104,11 @@
                 android:layout_marginLeft="10dp"
                 android:orientation="horizontal">
 
-                <ImageButton
+                <Button
                     android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/searchmark" />
+                    android:background="@drawable/searchmark" />
             </LinearLayout>
 
         </LinearLayout>
