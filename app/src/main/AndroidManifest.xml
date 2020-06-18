@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Community2"></activity>
         <activity
             android:name=".Market2"
             android:label="@string/title_activity_market2"
