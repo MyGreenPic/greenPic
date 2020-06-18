@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background = "@color/background"
-    tools:context=".CommunityFragment">
+    tools:context=".ShoppingCartMain">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -14,10 +14,6 @@
         android:background="@color/background"
         android:theme = "@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:fitsSystemWindows= "true">
-
-
-
-
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -36,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="image"
-                android:src="@drawable/communication_image" />
+                android:src="@drawable/shopping_cart_main" />
 
 
 
@@ -52,4 +48,3 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
-

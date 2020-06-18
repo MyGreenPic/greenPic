@@ -36,13 +36,18 @@ class ProfileFragment : Fragment() {
         }
 
         shopping_button.setOnClickListener {
-            val intent = Intent(this.context, MarketFragment::class.java)
+            val intent = Intent(this.context, ShoppingCartMain::class.java)
 
             startActivity(intent)
         }
 
         communication_button.setOnClickListener {
             val intent = Intent(this.context, CommunicationActivity::class.java)
+
+            startActivity(intent)
+        }
+        badge_button.setOnClickListener {
+            val intent = Intent(this.context, BadgeMain::class.java)
 
             startActivity(intent)
         }

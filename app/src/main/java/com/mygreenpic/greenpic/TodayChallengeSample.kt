@@ -9,10 +9,10 @@ import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.today_challenge_main.*
 
-class BadgeMain : AppCompatActivity(){
+class TodayChallengeSample : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.badge_main)
+        setContentView(R.layout.today_challenge_sample)
 
     }
 }
