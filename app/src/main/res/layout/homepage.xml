@@ -15,14 +15,14 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#A5DFA7">
+            android:background="#FDFDFD">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="303dp"
                 android:layout_height="51dp"
                 android:layout_marginStart="52dp"
-                android:background="#A5DFA7"
+                android:background="#FCFDFC"
                 android:tint="#090000"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -140,21 +140,16 @@
 
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="28dp"
-            android:animationCache="true"
-            android:background="#A5DFA7"
-            android:backgroundTint="#FFFFFF"
-            android:clickable="true"
-            android:clipChildren="true"
-            android:focusable="true"
-            android:keepScreenOn="true"
-            app:itemIconSize="45dp"
-            app:itemIconTint="@color/design_default_color_on_secondary"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:menu="@menu/homepage2" />
+                android:id="@+id/navigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                app:itemIconTint="@android:color/holo_green_light"
+                app:itemTextColor="@android:color/holo_green_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/menu_bottomnavigationview" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

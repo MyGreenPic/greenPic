@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B8E3B9">
+    android:background="#F9FAF9">
 
 
     <com.google.android.material.tabs.TabLayout
@@ -27,11 +27,11 @@
 
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/goblog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/blog"
             android:onClick="goblog"
-            android:id="@+id/goblog"/>
+            android:text="@string/blog" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
