@@ -21,12 +21,5 @@ class HomeFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        imageButton_noti.setOnClickListener {
-            val intent = Intent(this.context, NotiActivity::class.java)
-            startActivity(intent)
-        }
-    }
 
 }
